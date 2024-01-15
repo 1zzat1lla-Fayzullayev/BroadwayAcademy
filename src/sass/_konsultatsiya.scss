@@ -3,7 +3,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background-image: linear-gradient(135deg, #f5f7fa41 0%, #c3cfe2a6 100%);
   border-radius: 50px;
   .konsultatsiya-text {
     display: flex;
@@ -13,7 +13,6 @@
       font-size: 40px;
       color: black;
       font-weight: 700;
-      width: 75%;
     }
     p {
       font-size: 20px;
@@ -228,7 +227,17 @@
     h4 {
       font-size: 20px;
       width: 80%;
-      text-align: center;
+    }
+    .konsultatsiya-text {
+      h4 {
+        font-size: 25px;
+        text-align: center;
+        width: 100%;
+      }
+      p {
+        text-align: center;
+        font-size: 15px;
+      }
     }
   }
   .konsultatsiya-row {
