@@ -1,0 +1,129 @@
+.broadway {
+  padding-top: 50px;
+  .broadway-text {
+    width: 80%;
+    margin: auto;
+
+    h1 {
+      font-weight: 600;
+    }
+    p {
+      font-size: 18px;
+      color: var(--brown-60, #7e7e7e);
+    }
+  }
+  .broadway-row {
+    .cards {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      margin: 40px;
+      .card1,
+      .card2,
+      .card3 {
+        width: 300px;
+        background-color: rgba(255, 255, 255, 0.692);
+        border: 1px solid #ffcc0231;
+        border-radius: 10px;
+        padding: 20px;
+        height: 200px;
+      }
+    }
+    img {
+      width: 70px;
+    }
+  }
+  svg {
+    width: 600px;
+    position: absolute;
+    z-index: -1;
+    top: 90%;
+    left: -30%;
+  }
+
+  @media screen and (max-width: 768px) {
+    svg {
+      width: 400px !important;
+      position: absolute;
+    }
+    .cards {
+      .card1,
+      .card2,
+      .card3 {
+        height: 25vh;
+      }
+    }
+  }
+
+  .svg-image {
+    position: absolute;
+    z-index: -1;
+    left: 92%;
+    overflow: hidden;
+    top: -30%;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .broadway {
+    svg {
+      width: 620px;
+      position: absolute;
+      z-index: -1;
+      top: 100%;
+      right: 50px;
+      display: none;
+    }
+    .svg-image {
+      display: none;
+    }
+    .broadway-row {
+      .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .card1,
+        .card2,
+        .card3 {
+          max-width: 300px;
+          height: 230px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .broadway {
+    .broadway-row {
+      .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // gap: 20px;
+        .card1,
+        .card2,
+        .card3 {
+          max-width: 200px;
+          img {
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .broadway-text {
+    h1 {
+      margin-bottom: 20px;
+    }
+  }
+  .cards {
+    gap: 30px;
+  }
+}

@@ -1,0 +1,23 @@
+.menu {
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+  height: 100vh;
+  h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 1px black;
+    .solo-span {
+      color: #ffcd02;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .menu {
+    h1 {
+      font-size: 40px;
+    }
+  }
+}
