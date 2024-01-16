@@ -3,12 +3,11 @@
   .broadway-text {
     width: 80%;
     margin: auto;
-
-    h1 {
-      font-weight: 600;
-    }
     p {
       font-size: 18px;
+      h1 {
+        font-weight: 600;
+      }
       color: var(--brown-60, #7e7e7e);
     }
   }
