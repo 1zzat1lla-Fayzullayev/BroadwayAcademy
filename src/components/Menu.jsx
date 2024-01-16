@@ -20,6 +20,7 @@ function Menu() {
                   "IELTS",
                   "KIMYO",
                   "BIOLOGIYA",
+                  "PREZIDENT MAKTABI",
                 ]}
                 loop={true}
                 cursor

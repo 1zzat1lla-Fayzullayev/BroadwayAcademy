@@ -8,6 +8,7 @@ import { HashLoader } from "react-spinners";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Kurslar from "./pages/Kurslar";
 import Home from "./pages/Home";
+import Footer from "./components/Footer";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -37,6 +38,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/kurslar" element={<Kurslar />} />
           </Routes>
+          <Footer />
         </span>
       )}
     </>

@@ -22,9 +22,6 @@ function Navbar() {
           <li>
             <Link to={"/kurslar"}>Kurslar</Link>
           </li>
-          <li>
-            <a href="#">O'qituvchi</a>
-          </li>
           <li className="phone-number-li">
             <button className="phone-number mobile-phone">
               <a href="tel:+998998082888" title="Call">

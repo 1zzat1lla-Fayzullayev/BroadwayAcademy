@@ -38,6 +38,11 @@ function Konsultatsiya() {
   };
   return (
     <>
+      <div id="kursga-yozilish">
+        <br />
+        <br />
+      </div>
+
       <div className="container konsultatsiya">
         <div className="konsultatsiya-text">
           <h4 data-aos="fade-up">Qo'shimcha ma'lumotlar olmoqchimisiz?</h4>

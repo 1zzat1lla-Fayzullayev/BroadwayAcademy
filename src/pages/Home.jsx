@@ -9,8 +9,9 @@ function Home() {
     <>
       <Menu />
       <Broadway />
+      <Oqituvchi />
       <Konsultatsiya />
-      {/* <Oqituvchi /> */}
+
     </>
   );
 }
